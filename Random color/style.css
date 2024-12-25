@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hmtl, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    transform: translate(-50%,-50%);
+}
+#box{
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+}
+button{
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: rgb(27, 214, 152);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:active{
+    scale: 0.95;
+}

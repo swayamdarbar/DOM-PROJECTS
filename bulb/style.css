@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+#bulb{
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+#container button{
+    padding: 10px 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: rgb(56, 150, 150);
+    color: white;
+    cursor: pointer;
+}
+button:active{
+    scale: 0.95;
+}
